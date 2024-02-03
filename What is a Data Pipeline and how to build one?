@@ -1,0 +1,40 @@
+What is a Data Pipeline and how to build one?
+
+𝐅𝐢𝐫𝐬𝐭 𝐔𝐧𝐝𝐞𝐫𝐬𝐭𝐚𝐧𝐝 𝐭𝐡𝐞 𝐄𝐓𝐋 𝐁𝐚𝐬𝐢𝐜𝐬:
+𝘌𝘹𝘵𝘳𝘢𝘤𝘵: Get data from sources like data lake or file storage.
+𝘛𝘳𝘢𝘯𝘴𝘧𝘰𝘳𝘮: Apply changes or filters to clean and organize the data.
+𝘓𝘰𝘢𝘥: Save the processed data to a place where it can be used, like a database.
+
+𝐂𝐡𝐨𝐨𝐬𝐞 𝐁𝐚𝐭𝐜𝐡 𝐨𝐫 𝐑𝐞𝐚𝐥-𝐓𝐢𝐦𝐞 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠:
+Decide if you need to process data in batches (at intervals) or in real-time (as it comes in).
+
+𝐈𝐝𝐞𝐧𝐭𝐢𝐟𝐲 𝐃𝐚𝐭𝐚 𝐒𝐨𝐮𝐫𝐜𝐞𝐬:
+Find out where your data is coming from. It could be databases, file storage systems like AWS S3 or HDFS, or other sources.
+
+𝐊𝐧𝐨𝐰 𝐘𝐨𝐮𝐫 𝐃𝐚𝐭𝐚 𝐅𝐨𝐫𝐦𝐚𝐭:
+Understand the format of your incoming data. Is it in JSON (flexible structure), CSV (rows and columns), or another format?
+
+𝐄𝐱𝐩𝐥𝐨𝐫𝐞 𝐚𝐧𝐝 𝐃𝐞𝐟𝐢𝐧𝐞 𝐃𝐚𝐭𝐚 𝐒𝐜𝐡𝐞𝐦𝐚:
+Look at your data to understand its structure and types. This helps in reading and processing it correctly.
+
+𝐒𝐞𝐥𝐞𝐜𝐭 𝐭𝐡𝐞 𝐑𝐢𝐠𝐡𝐭 𝐓𝐨𝐨𝐥𝐬 𝐟𝐨𝐫 𝐓𝐫𝐚𝐧𝐬𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧:
+Choose a processing framework like Apache Spark for batch processing or Apache Flink for real-time processing.
+
+𝐃𝐞𝐜𝐢𝐝𝐞 𝐖𝐡𝐞𝐫𝐞 𝐭𝐨 𝐋𝐨𝐚𝐝 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐞𝐝 𝐃𝐚𝐭𝐚:
+Choose a destination for your processed data. It could be a database, a data warehouse, or a file storage system.
+
+𝐂𝐨𝐧𝐬𝐢𝐝𝐞𝐫 𝐔𝐬𝐢𝐧𝐠 𝐚 𝐒𝐜𝐡𝐞𝐝𝐮𝐥𝐞𝐫 (𝐎𝐩𝐭𝐢𝐨𝐧𝐚𝐥):
+If you need to run your data pipeline at specific times, use a tool like Apache Airflow to schedule and automate this process.
+
+𝐀𝐠𝐠𝐫𝐞𝐠𝐚𝐭𝐞 𝐚𝐧𝐝 𝐀𝐧𝐚𝐥𝐲𝐳𝐞 𝐃𝐚𝐭𝐚:
+After processing, save your data in an organized way, like in folders sorted by date. Use tools like Hive to create tables from this data for analysis.
+
+𝐏𝐫𝐚𝐜𝐭𝐢𝐜𝐚𝐥 𝐈𝐦𝐩𝐥𝐞𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧:
+For a hands-on example: set up a system to process daily data. Use Hadoop for storage, Spark for processing, and Airflow for scheduling.
+Transform the data according to your business needs and load it into a system for further analysis or reporting.
+
+𝐂𝐫𝐞𝐚𝐭𝐞 𝐀𝐜𝐜𝐞𝐬𝐬 𝐏𝐨𝐢𝐧𝐭𝐬 𝐟𝐨𝐫 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬:
+Set up external tables (using Hive, for example) to easily access and analyze the processed data.
+
+
+Remember, the key to building an effective data pipeline is understanding your data and selecting the right tools and processes to handle it efficiently.
