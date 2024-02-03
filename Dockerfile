@@ -1,6 +1,9 @@
 6# Utilizarea imaginii de bază
 FROM quay.io/jupyter/all-spark-notebook:latest
 
+# volum 
+
+VOLUME /data
 # Exponarea portului
 EXPOSE 8888
 
