@@ -1,4 +1,4 @@
-# Utilizarea imaginii de bază
+6# Utilizarea imaginii de bază
 FROM quay.io/jupyter/all-spark-notebook:latest
 
 # Exponarea portului
